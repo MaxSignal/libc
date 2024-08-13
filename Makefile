@@ -13,6 +13,10 @@ CXXFLAGS += $(CFLAGS)
 
 all: libc.a       
 
+install: 
+	cp libc.a $(DEVKITPRO)/libdataplus/lib/libc.a
+	cp -r include $(DEVKITPRO)/libdataplus
+
 libc.a:		$(OBJS)
 	$(AR) rc $@ $(OBJS)
 	-@ ($(RANLIB) $@ || true) >/dev/null 2>&1
