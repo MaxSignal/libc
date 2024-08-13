@@ -23,6 +23,6 @@ libc.a:		$(OBJS)
 
 clean: 
 	find . -name "*.o" |xargs rm -f
-	rm libc.a
+	rm -f libc.a
 
 include $(DEVKITSH4)/exword_rules
