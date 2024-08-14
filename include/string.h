@@ -2,8 +2,6 @@
 #ifndef _STRING_H
 #define _STRING_H
 
-#define NULL 0
-
 void *memset(void *s, int c, unsigned long n);
 int memcmp(const void *s1, const void *s2, unsigned long n);
 void *memcpy(void *dest, const void *src, unsigned long n);

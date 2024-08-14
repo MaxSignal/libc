@@ -3,7 +3,7 @@
 #define _STDIO_H
 
 #include <stdarg.h>
-#include "../logger.h"
+#include <logger.h>
 
 typedef struct _file FILE;
 #define SEEK_SET 0

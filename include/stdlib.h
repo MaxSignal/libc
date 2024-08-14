@@ -2,7 +2,7 @@
 #ifndef _STDLIB_H
 #define _STDLIB_H
 
-#include "../memmgr.h"
+#include <memmgr.h>
 
 #define NULL 0
 
